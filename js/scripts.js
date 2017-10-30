@@ -29,7 +29,6 @@ $(document).ready(function(){
 
   $("form#checkOff").submit(function(event){
     event.preventDefault();
-    debugger
     $("input:checkbox[name=to-do-task]:checked").each(function(){
       var id = $(this).val();
       $("#" + id).hide();
