@@ -1,3 +1,19 @@
 .btn-primary {
   float: right;
 }
+ul {
+  list-style: none;
+}
+
+.home{
+  background-color: green;
+}
+.work{
+  background-color: purple;
+}
+.school{
+  background-color: blue;
+}
+.errands{
+  background-color: yellow;
+}
