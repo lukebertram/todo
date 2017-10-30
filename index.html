@@ -11,40 +11,42 @@
   <body>
     <div class="container">
     <h1>My To Do List</h1>
-    <h3>Don't forget to... </h3>
+    <em><h3>Don't forget to... </h3></em>
     <div class="row">
       <div class="col-md-12">
-        <form id="newListItem">
-          <label for="listNameOne">Name of the Task</label>
+        <form id="newListForm">
+          <label for="listNameOne"><h4>Task description:</h4></label>
           <input id="listNameOne" class="form-control" type="text">
-          <label for="listNameTwo">Name of the Task</label>
-          <input id="listNameTwo" class="form-control" type="text">
-          <label for="listNameThree">Name of the Task</label>
-          <input id="listNameThree" class="form-control" type="text">
+
+          <div class="radio form-control">
+            <h4>Category:</h4>
+            <label>
+              <input type="radio" name="category" value="home" checked>
+              Home
+            </label>
+            <label>
+              <input type="radio" name="category" value="school">
+              School
+            </label>
+            <label>
+              <input type="radio" name="category" value="work">
+              Work
+            </label>
+            <label>
+              <input type="radio" name="category" value="errands">
+              Errands
+            </label>
+
+          </div>
           <button type="submit" class="btn btn-primary">Add my tasks!</button>
         </form>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-3 card bg-secondary text-white">
-        <h2>School work to-dos!</h2>
-        <ul id="schoolTask">
-        </ul>
-      </div>
-      <div class="col-md-3 card bg-secondary text-white">
-        <h2>Professional to-dos!</h2>
-        <ul id="workTask">
-        </ul>
-      </div>
-      <div class="col-md-3 card bg-secondary text-white">
-        <h2>Home front to-dos</h2>
-        <ul id="homeTask">
-        </ul>
-      </div>
-      <div class="col-md-3 card bg-secondary text-white">
-        <h2>Random errands</h2>
-        <ul id="errandsTask">
+      <div class="col-md-12 output card bg-secondary text-white">
+        <h2>All of the Tasks!</h2>
+        <ul id="outputTask">
         </ul>
       </div>
     </div>

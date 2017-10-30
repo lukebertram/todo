@@ -14,17 +14,17 @@ Install address-book by cloning this repository.
 
 ## Specs
 
-The application will turn user input into a To Do item and return that object as an alert
-* Example Input: 
-* Example Output:
+The application will turn user input into a To Do item and return that object as an alert.
+* Example Input: Walk the dog
+* Example Output: Alert pops up - "Walk the dog"
 
-The application will take user input and create a list item on the left side of the screen (future link to the info card).
-* Example Input: Barcelona
-* Example Output: Barcelona list item in link list (left side of screen)
+The application will take user input and create a list item on the left side of the screen (future link to the to-do card).
+* Example Input: Walk the dog
+* Example Output: "Walk the dog" to-do task in link list (left side of screen)
 
-Display places object information on the right side of the screen after creation
-* Input: Barcelona
-* Output: new info card displaying location information onscreen
+The application displays to-do item on the right side of the screen after creation.
+* Input: Walk the dog
+* Output: New info card displays to-do description onscreen
 
 link the place name in the list of places to the places object for display - clicking on the name in the list will make the information for that place visible on the right side of the screen
 * Input: Barcelona
